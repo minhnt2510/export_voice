@@ -1,9 +1,8 @@
 # ViVibe Clone (Text-to-Speech SaaS)
-
+- https://export-voice-web.22001075-minh.workers.dev/
 ## Tên app
 
 - Tên triển khai: `Export Voice`
-- Tên code gốc: `ViVibe Clone`
 
 ## Mô tả tiếng Việt
 
