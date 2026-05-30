@@ -1,5 +1,8 @@
 # ViVibe Clone (Text-to-Speech SaaS)
 
+Huong dan tieng Viet (de lam theo tung buoc):
+- [HUONG_DAN_DEPLOY_VI.md](./HUONG_DAN_DEPLOY_VI.md)
+
 Full-stack web app for text-to-speech generation with real auth, projects, credits, history, and API key based public TTS endpoint.
 
 ## Tech stack
@@ -213,11 +216,9 @@ Notes:
 VITE_API_URL=https://your-render-service.onrender.com/api
 ```
 
-This repo already includes `client/public/_redirects` for SPA fallback:
+SPA fallback is configured in `client/wrangler.jsonc` via:
 
-```txt
-/* /index.html 200
-```
+- `assets.not_found_handling = "single-page-application"`
 
 ## 6) API endpoints
 
