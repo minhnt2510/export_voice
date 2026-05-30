@@ -1,8 +1,5 @@
 # ViVibe Clone (Text-to-Speech SaaS)
 
-Huong dan tieng Viet (de lam theo tung buoc):
-- [HUONG_DAN_DEPLOY_VI.md](./HUONG_DAN_DEPLOY_VI.md)
-
 Full-stack web app for text-to-speech generation with real auth, projects, credits, history, and API key based public TTS endpoint.
 
 ## Tech stack
