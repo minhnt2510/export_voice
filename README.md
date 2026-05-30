@@ -1,5 +1,14 @@
 # ViVibe Clone (Text-to-Speech SaaS)
 
+## Tên app
+
+- Tên triển khai: `Export Voice`
+- Tên code gốc: `ViVibe Clone`
+
+## Mô tả tiếng Việt
+
+Ứng dụng chuyển văn bản thành giọng nói (Text-to-Speech), có đăng ký/đăng nhập, quản lý project, credit và API key.
+
 Full-stack web app for text-to-speech generation with real auth, projects, credits, history, and API key based public TTS endpoint.
 
 ## Tech stack
