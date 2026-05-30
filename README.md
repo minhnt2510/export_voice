@@ -4,7 +4,7 @@
 
 - Tên triển khai: `Export Voice`
 
-## Mô tả tiếng Việt
+## Mô tả App
 
 Ứng dụng chuyển văn bản thành giọng nói (Text-to-Speech), có đăng ký/đăng nhập, quản lý project, credit và API key.
 
