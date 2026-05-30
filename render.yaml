@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: vivibe-clone-api
+    runtime: node
+    rootDir: server
+    plan: free
+    autoDeploy: true
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.13.0
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: TTS_PROVIDER
+        value: edge
+      - key: TTS_MAX_CHARACTERS
+        value: 5000
+      - key: EDGE_TTS_SCRIPT
+        value: ./scripts/edge_tts_generate.py
